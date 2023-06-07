@@ -1,0 +1,52 @@
+@import url(//db.onlinewebfonts.com/c/37086b994764dba84b2ee0f1083bfeed?family=SB+Sans+Interface);
+
+:root {
+    --color-gray: #F4F4F5;
+    --color-white: #ffffff;
+
+}
+
+* {
+    all: unset;
+    display: revert;
+    list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-gray);
+    font-family: "SB Sans Interface", sans-serif;
+}
+
+#root {
+    padding: 24px 233px 225px 223px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 0 0 24px;
+    background-color: var(--color-white);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.user-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #D5E4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-text {
+    font-size: 40px;
+}
